@@ -1,5 +1,4 @@
 import requests
-import json
 
 API = "https://opentdb.com/api.php?amount=10&category=23&difficulty=easy&type=boolean"
 request = requests.get(f"{API}")
